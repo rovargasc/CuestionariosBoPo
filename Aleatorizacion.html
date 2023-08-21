@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redireccionamiento Aleatorio</title>
+    <script>
+        window.onload = function() {
+            var formUrls = [
+                "https://forms.gle/Qe2Sx2vEeCLBadDw5",
+                "https://forms.gle/a556NijrovWvmEaZ6",
+                "https://forms.gle/VuDzQHXy5xJXwtjq8",
+                "https://forms.gle/CxcPzhczx3Xi5m6Y8",
+                "https://forms.gle/5Tk7Er43mgKLHu889",
+                "https://forms.gle/anmL9e5bJiLLzwAR6"
+            ];
+            var randomNumber = Math.floor(Math.random() * formUrls.length);
+            window.location.href = formUrls[randomNumber];
+        };
+    </script>
+</head>
+<body>
+</body>
+</html>
