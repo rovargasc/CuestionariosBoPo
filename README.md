@@ -2,21 +2,21 @@
 
 ## Aspectos Generales
 
-| Característica | López & Macías (2018) | Rivera et al. (2021) | Fandiño (2023) | Madrid (2017) |
+| Característica | López & Macías (2018) | Rivera et al. (2021) | Fandiño (2022) | Madrid (2017) |
 |----------------|---------------------|-------------------|----------------|--------------|
 | Objetivo principal | Analizar tiempo hasta deserción | Clasificar y predecir deserción | Predecir deserción por programa | Clasificar estudiantes en riesgo de deserción |
 | País/Región | Colombia | Colombia (U. Andes) | Colombia (Konrad Lorenz) | Colombia (UNAL Medellín) |
 | Población | Estudiantes PEAMA | Estudiantes Ing. Eléctrica | 6 programas pregrado | Todos los programas pregrado |
-| Periodo de estudio | 2008-I a 2018-I | 2010-I a 2021-I | No especificado | 2009-I a 2016-I |
+| Periodo de estudio | 2008-I a 2018-I | 2010-I a 2021-I | 2014-I a 2020-I | 2009-I a 2016-I |
 
 ## Modelos Utilizados
 
-| López & Macías (2018) | Rivera et al. (2021) | Fandiño (2023) | Madrid (2017) |
+| López & Macías (2018) | Rivera et al. (2021) | Fandiño (2022) | Madrid (2017) |
 |---------------------|-------------------|----------------|--------------|
-| - Modelo logístico de riesgo discreto | - Random Forest | - Random Forest | - Máquinas Vector Soporte (SVM) |
+| - Modelo logístico de riesgo discreto | - **Random Forest** | - **Random Forest** | - Máquinas Vector Soporte (SVM) |
 | - Análisis supervivencia | - MultiLayer Perceptron | - Regresión Logística | - Análisis Discriminante (AD) |
-| | - Logistic Regression | - Support Vector Machines | - K-vecinos más próximos (KNN) |
-| | | - Árboles de Decisión | - Regresión Logística (RL) |
+| | | - Support Vector Machines | - **K-vecinos más próximos (KNN)** |
+| | |  | - Regresión Logística (RL) |
 
 ## Rendimiento por Modelo y Periodo
 
